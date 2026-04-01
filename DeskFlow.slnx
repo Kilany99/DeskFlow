@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="deskflow.client/deskflow.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="DeskFlow.Core/DeskFlow.Application.csproj" />
+  <Project Path="DeskFlow.Domain/DeskFlow.Domain.csproj" />
+  <Project Path="DeskFlow.Infrastructure/DeskFlow.Infrastructure.csproj" />
+  <Project Path="DeskFlow.Server/DeskFlow.Server.csproj" />
+</Solution>
