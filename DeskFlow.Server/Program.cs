@@ -14,6 +14,8 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
 builder.Services.AddInfrastructure(builder.Configuration);
+builder.Services.AddApplicationServices();
+
 var app = builder.Build();
 
 app.UseDefaultFiles();
