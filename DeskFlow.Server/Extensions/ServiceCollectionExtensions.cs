@@ -20,7 +20,7 @@ namespace DeskFlow.Server.Extensions
             return services;
         }
         public static IServiceCollection AddApplicationServices(
-    this IServiceCollection services)
+            this IServiceCollection services)
         {
             services.AddScoped<ITicketService, TicketService>();
             services.AddScoped<IAuthService, AuthService>();
@@ -30,5 +30,6 @@ namespace DeskFlow.Server.Extensions
 
             return services;
         }
+
     }
 }

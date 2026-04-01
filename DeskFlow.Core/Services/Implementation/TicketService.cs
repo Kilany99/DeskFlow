@@ -22,6 +22,7 @@ namespace DeskFlow.Application.Services.Implementation
 
             var ticket = new Ticket
             {
+                TenantId = dto.TenantId,
                 CustomerName = dto.CustomerName,
                 CustomerEmail = dto.CustomerEmail,
                 Subject = dto.Subject,

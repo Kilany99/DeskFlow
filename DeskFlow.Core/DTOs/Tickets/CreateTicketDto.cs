@@ -7,6 +7,7 @@ namespace DeskFlow.Application.DTOs.Tickets
 {
     public class CreateTicketDto
     {
+        public Guid TenantId { get; set; }
         public string CustomerName { get; set; } = string.Empty;
         public string CustomerEmail { get; set; } = string.Empty;
         public string Subject { get; set; } = string.Empty;
