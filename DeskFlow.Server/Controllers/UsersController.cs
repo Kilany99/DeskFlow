@@ -7,9 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DeskFlow.Server.Controllers
 {
-    /// <summary>
-    ///
-    /// </summary>
+   
     [Authorize]
     public class UsersController : TenantScopedController
     {

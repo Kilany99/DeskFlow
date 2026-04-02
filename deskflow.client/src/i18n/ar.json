@@ -1,0 +1,153 @@
+{
+  "nav": {
+    "dashboard": "لوحة التحكم",
+    "tickets": "التذاكر",
+    "users": "المستخدمون",
+    "tenants": "المستأجرون",
+    "auditLogs": "سجل الأحداث",
+    "logout": "تسجيل الخروج",
+    "admin": "الإدارة"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "subdomain": "النطاق الفرعي للشركة",
+    "companyName": "اسم الشركة",
+    "fullName": "الاسم الكامل",
+    "loginTitle": "مرحباً بعودتك",
+    "loginSubtitle": "سجّل دخولك إلى مكتب الدعم",
+    "registerTitle": "ابدأ الآن",
+    "registerSubtitle": "أنشئ مكتب دعم لشركتك",
+    "alreadyHaveAccount": "لديك حساب بالفعل؟",
+    "dontHaveAccount": "ليس لديك حساب؟",
+    "signIn": "تسجيل الدخول",
+    "createOne": "أنشئ حساباً",
+    "invalidCredentials": "بيانات غير صحيحة. تحقق من بريدك الإلكتروني وكلمة المرور والنطاق.",
+    "registerFailed": "فشل التسجيل. ربما النطاق الفرعي مستخدم بالفعل.",
+    "validation": {
+      "emailRequired": "البريد الإلكتروني مطلوب",
+      "emailInvalid": "أدخل بريداً إلكترونياً صحيحاً",
+      "passwordRequired": "كلمة المرور مطلوبة",
+      "passwordMin": "يجب أن تكون كلمة المرور 8 أحرف على الأقل",
+      "subdomainRequired": "النطاق الفرعي مطلوب",
+      "subdomainMin": "النطاق الفرعي يجب أن يكون 3 أحرف على الأقل",
+      "subdomainInvalid": "أحرف صغيرة وأرقام وشرطات فقط",
+      "companyRequired": "اسم الشركة مطلوب",
+      "fullNameRequired": "الاسم الكامل مطلوب"
+    }
+  },
+  "tickets": {
+    "title": "التذاكر",
+    "new": "تذكرة جديدة",
+    "reference": "المرجع",
+    "subject": "الموضوع",
+    "customer": "العميل",
+    "assignedTo": "مُسند إلى",
+    "created": "تاريخ الإنشاء",
+    "status": {
+      "Open": "مفتوحة",
+      "InProgress": "قيد المعالجة",
+      "Resolved": "محلولة",
+      "Closed": "مغلقة"
+    },
+    "priority": {
+      "Low": "منخفضة",
+      "Medium": "متوسطة",
+      "High": "عالية",
+      "Critical": "حرجة"
+    },
+    "fields": {
+      "subject": "الموضوع",
+      "description": "الوصف",
+      "customer": "العميل",
+      "assignedTo": "مُسند إلى",
+      "created": "تاريخ الإنشاء",
+      "reference": "رقم المرجع",
+      "status": "الحالة",
+      "priority": "الأولوية"
+    },
+    "reply": {
+      "placeholder": "اكتب ردك هنا...",
+      "send": "إرسال الرد"
+    },
+    "detail": "تفاصيل التذكرة",
+    "back": "رجوع",
+    "notFound": "التذكرة غير موجودة"
+  },
+  "users": {
+    "title": "أعضاء الفريق",
+    "invite": "دعوة عضو",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "role": "الدور",
+    "status": "الحالة",
+    "joined": "تاريخ الانضمام",
+    "actions": "الإجراءات",
+    "activate": "تفعيل",
+    "deactivate": "تعطيل",
+    "sendInvite": "إرسال الدعوة",
+    "roles": {
+      "TenantAdmin": "مدير",
+      "Agent": "وكيل",
+      "SuperAdmin": "مدير النظام"
+    }
+  },
+  "tenants": {
+    "title": "جميع المستأجرين",
+    "company": "الشركة",
+    "subdomain": "النطاق الفرعي",
+    "plan": "الخطة",
+    "members": "الأعضاء",
+    "status": "الحالة",
+    "created": "تاريخ الإنشاء",
+    "actions": "الإجراءات",
+    "plans": {
+      "Free": "مجاني",
+      "Pro": "احترافي",
+      "Enterprise": "مؤسسي"
+    },
+    "suspend": "تعليق",
+    "unsuspend": "إلغاء التعليق"
+  },
+  "audit": {
+    "title": "سجل الأحداث",
+    "user": "المستخدم",
+    "action": "الحدث",
+    "details": "التفاصيل",
+    "time": "الوقت",
+    "system": "النظام",
+    "noLogs": "لا توجد أحداث"
+  },
+  "dashboard": {
+    "totalTickets": "إجمالي التذاكر",
+    "open": "مفتوحة",
+    "inProgress": "قيد المعالجة",
+    "resolved": "محلولة",
+    "recentTickets": "آخر التذاكر",
+    "viewAll": "عرض الكل",
+    "team": "الفريق",
+    "manage": "إدارة",
+    "activeAgents": "الوكلاء النشطون",
+    "teamMembers": "أعضاء الفريق"
+  },
+  "common": {
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "search": "بحث",
+    "loading": "جار التحميل...",
+    "noData": "لا يوجد شيء هنا بعد",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "suspended": "معلق",
+    "all": "الكل",
+    "previous": "السابق",
+    "next": "التالي",
+    "page": "صفحة",
+    "of": "من",
+    "details": "التفاصيل",
+    "back": "رجوع"
+  }
+}

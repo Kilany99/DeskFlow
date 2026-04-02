@@ -1,0 +1,153 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "tickets": "Tickets",
+    "users": "Users",
+    "tenants": "Tenants",
+    "auditLogs": "Audit Logs",
+    "logout": "Logout",
+    "admin": "Admin"
+  },
+  "auth": {
+    "login": "Sign in",
+    "register": "Create account",
+    "email": "Email address",
+    "password": "Password",
+    "subdomain": "Company subdomain",
+    "companyName": "Company name",
+    "fullName": "Full name",
+    "loginTitle": "Welcome back",
+    "loginSubtitle": "Sign in to your helpdesk",
+    "registerTitle": "Get started",
+    "registerSubtitle": "Create your company helpdesk",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?",
+    "signIn": "Sign in",
+    "createOne": "Create one",
+    "invalidCredentials": "Invalid credentials. Check your email, password and subdomain.",
+    "registerFailed": "Registration failed. Subdomain may already be taken.",
+    "validation": {
+      "emailRequired": "Email is required",
+      "emailInvalid": "Enter a valid email address",
+      "passwordRequired": "Password is required",
+      "passwordMin": "Password must be at least 8 characters",
+      "subdomainRequired": "Subdomain is required",
+      "subdomainMin": "Subdomain must be at least 3 characters",
+      "subdomainInvalid": "Only lowercase letters, numbers, and hyphens",
+      "companyRequired": "Company name is required",
+      "fullNameRequired": "Full name is required"
+    }
+  },
+  "tickets": {
+    "title": "Tickets",
+    "new": "New Ticket",
+    "reference": "Reference",
+    "subject": "Subject",
+    "customer": "Customer",
+    "assignedTo": "Assigned To",
+    "created": "Created",
+    "status": {
+      "Open": "Open",
+      "InProgress": "In Progress",
+      "Resolved": "Resolved",
+      "Closed": "Closed"
+    },
+    "priority": {
+      "Low": "Low",
+      "Medium": "Medium",
+      "High": "High",
+      "Critical": "Critical"
+    },
+    "fields": {
+      "subject": "Subject",
+      "description": "Description",
+      "customer": "Customer",
+      "assignedTo": "Assigned To",
+      "created": "Created",
+      "reference": "Reference",
+      "status": "Status",
+      "priority": "Priority"
+    },
+    "reply": {
+      "placeholder": "Write your reply...",
+      "send": "Send reply"
+    },
+    "detail": "Ticket details",
+    "back": "Back",
+    "notFound": "Ticket not found"
+  },
+  "users": {
+    "title": "Team members",
+    "invite": "Invite member",
+    "name": "Name",
+    "email": "Email",
+    "role": "Role",
+    "status": "Status",
+    "joined": "Joined",
+    "actions": "Actions",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "sendInvite": "Send Invite",
+    "roles": {
+      "TenantAdmin": "Admin",
+      "Agent": "Agent",
+      "SuperAdmin": "Super Admin"
+    }
+  },
+  "tenants": {
+    "title": "All tenants",
+    "company": "Company",
+    "subdomain": "Subdomain",
+    "plan": "Plan",
+    "members": "Members",
+    "status": "Status",
+    "created": "Created",
+    "actions": "Actions",
+    "plans": {
+      "Free": "Free",
+      "Pro": "Pro",
+      "Enterprise": "Enterprise"
+    },
+    "suspend": "Suspend",
+    "unsuspend": "Unsuspend"
+  },
+  "audit": {
+    "title": "Audit Logs",
+    "user": "User",
+    "action": "Action",
+    "details": "Details",
+    "time": "Time",
+    "system": "System",
+    "noLogs": "No audit logs found"
+  },
+  "dashboard": {
+    "totalTickets": "Total Tickets",
+    "open": "Open",
+    "inProgress": "In Progress",
+    "resolved": "Resolved",
+    "recentTickets": "Recent Tickets",
+    "viewAll": "View all",
+    "team": "Team",
+    "manage": "Manage",
+    "activeAgents": "Active Agents",
+    "teamMembers": "Team Members"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "search": "Search",
+    "loading": "Loading...",
+    "noData": "Nothing here yet",
+    "active": "Active",
+    "inactive": "Inactive",
+    "suspended": "Suspended",
+    "all": "All",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "of": "of",
+    "details": "Details",
+    "back": "Back"
+  }
+}
